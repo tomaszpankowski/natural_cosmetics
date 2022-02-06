@@ -17,7 +17,7 @@ const appCfg = {
         {navItem:true, exact:true, path:"/faq",name:"FAQ",view:<Faq/>},        
         {navItem:true, exact:true, path:"/contact",name:"Contact",view:<Contact/>},
         {navItem:true, exact:true, path:"/login",name:<span className="fa fa-user-circle"></span>,view:<Login backLink={{name:" Register now!",href:"/register"}}/>},
-        {navItem:true, exact:true, path:"/comingsoon",name:"Comingsoon",view:<Comingsoon/>},        
+        {navItem:false, exact:true, path:"/comingsoon",name:"Comingsoon",view:<Comingsoon/>},        
         {navItem:false, exact:true, path:"/register",name:"Register",view:<Register backLink={{name:" Login now!",href:"/login"}}/>},
         {navItem:false, exact:false, path:"/error",name:"Error",view:<Error backLink={{name:"back to Home",href:"/"}}/>},
         {navItem:false, exact:true, path:"/privacy",name:"Privacy",view: <PrivacyPolicy backLink={{name:"back to Home",href:"/"}}/>},
