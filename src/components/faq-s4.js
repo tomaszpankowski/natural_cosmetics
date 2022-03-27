@@ -7,7 +7,7 @@ import Table from "../../node_modules/react-bootstrap/Table";
 class FaqS4 extends Component{
     render(){
         return(    
-            <Container fluid className="d-flex minh-50vh align-items-center py-5 bg-secondary">
+            <Container fluid className="faq-s4 d-flex minh-50vh align-items-center py-5 bg-secondary border-top border-secondary">
                 <Row className="mx-0 w-100 px-3 text-shadow">
                     <Col xs={12} className="py-3">
                         <h2 className="display-6 text-center text-md-start text-white text-uppercase">

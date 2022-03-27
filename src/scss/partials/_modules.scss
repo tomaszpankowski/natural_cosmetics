@@ -1,1 +1,102 @@
 @include aoa-bg-series($bg__init,$classes_init);
+
+.faq{
+    &-s2,&-s4{
+        *{
+            color: #fff !important;
+            text-shadow: $text__shadow;
+        }
+        background-color: #666!important;
+        background-blend-mode: multiply!important; 
+    }
+}
+
+.products{
+    &-s3{
+        *{
+            color: #fff !important;
+            text-shadow: $text__shadow;
+        }
+        background-color: #666!important;
+        background-blend-mode: multiply!important; 
+    }
+}
+
+.text{
+    &-shadow{
+        text-shadow: $text__shadow;
+    }
+}
+
+nav{
+    z-index: 10;
+}
+
+textarea{
+    resize: none;
+}
+
+@media all and (max-width: 767px){
+    .about{
+        &-s1,&-s2{
+            *{
+                color: #fff !important;
+                text-shadow: $text__shadow;
+            }
+            background-color: #666!important;
+            background-blend-mode: multiply!important;
+        }
+        &-s1{
+            background-position: right!important;
+        }
+    }
+    .contact,.index{
+        &-s1{
+            *{
+                color: #fff !important;
+                text-shadow: $text__shadow;
+            }
+            background-color: #666!important;
+            background-blend-mode: multiply!important;
+        }
+    }
+    .faq{
+        &-s1,&-s2,&-s3{
+            *{
+                color: #fff !important;
+                text-shadow: $text__shadow;
+            }
+            background-color: #666!important;
+            
+            background-blend-mode: multiply!important;
+        }
+        &-s1{
+            background-position: right!important;
+        }
+    }
+    .products{
+        &-s1,&-s2{
+            *{
+                color: #fff !important;
+                text-shadow: $text__shadow;
+            }
+            background-color: #666!important;
+            background-blend-mode: multiply!important;
+        }
+    }
+    .navbar{
+        &-nav{
+            *{
+                &:hover{
+                    opacity: 0.8;
+                }
+                color: #fff !important;
+                text-shadow: $text__shadow;
+            }
+            background-color: #666!important;
+            background-blend-mode: multiply!important;
+            border: 1px solid #333;
+            opacity:0.9;
+        }
+    }
+}
