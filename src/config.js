@@ -26,8 +26,13 @@ const appCfg = {
 };
 
 const APP_LINKS = {
-    messages: "",
-    users: ""
+    messages: "http://localhost/natural_cosmetics/public/message.php",
+    register: "register.php",
+    users: "http://localhost/natural_cosmetics/public/user.php"
+};
+
+const msgCfg = {
+    pageSize: 10
 };
 
 const MESSAGES = {
@@ -44,5 +49,6 @@ const MESSAGES = {
 export {
     appCfg,
     APP_LINKS,
-    MESSAGES
+    MESSAGES,
+    msgCfg
 }
