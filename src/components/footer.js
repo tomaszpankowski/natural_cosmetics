@@ -41,7 +41,7 @@ class Footer extends Component{
                         <Col xs={12} className="text-center border-top">
                             <p className="mb-1">
                                 Copyright &copy; 2021-2022 Tomasz Pankowski. 
-                                <Link to="privacy.html" className="fw-bold text-white text-decoration-none">
+                                <Link to="/privacy" className="fw-bold text-white text-decoration-none">
                                     Privacy policy
                                 </Link>
                             </p>
